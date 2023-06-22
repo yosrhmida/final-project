@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: beige;
+    height: 80px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+    color: #fff;
+    color: black;
+
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: black;
+  }
+  #logoo{
+    height: 50px;
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .search-bar {
+    margin-left: auto;
+    padding: 5px;
+  }
+
+  .search-bar input[type="text"] {
+    height: 20px;
+    width: 200px;
+  }
+
+  #introduction{
+    margin: 50px;
+    display: flex;
+  }
+
+  #image{
+    width: 5px;
+    height: 5px;
+  }
+
+  #header1{
+    padding-left: 300px;
+    text-decoration: underline;
+    font-size: 50px;
+  }
+
+  #para{
+    padding-left: 520px;
+    padding-top: 20px;
+    align-self: center;
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .section:hover {
+    transform: scale(1.01);
+    background-color: beige;
+  }
+
+  .section .left-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section .right-part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section .left-part h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .section .left-part button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .section .right-part img {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 50px;
+    /* width: 50vb;
+    height: 100vh; */
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .section1 {
+    background-color: #F6F6F6;
+
+  }
+
+  .section2 {
+    background-color:#F6F6F6;
+  }
+
+  .section3 {
+    background-color: #F6F6F6;
+  }
+  .description{
+    margin-bottom: 2vb;
+  }
+
+  
